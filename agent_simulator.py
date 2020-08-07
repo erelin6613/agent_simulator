@@ -1,5 +1,6 @@
 from simulator import BaseSimulator
 from datetime import datetime
+import time
 
 
 # baseline time in miliseconds
