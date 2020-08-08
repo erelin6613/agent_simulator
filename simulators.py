@@ -16,7 +16,7 @@ class BaseSimulator:
 	def __init__(self, trials=1e5, *args, **kwargs):
 		self.args = args
 		self.kwargs = kwargs
-		self.trails=int(trials)
+		self.trials=int(trials)
 
 	def __repr__(self):
 		return self.__name__
